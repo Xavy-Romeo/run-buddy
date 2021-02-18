@@ -44,9 +44,36 @@ header nav ul li a {
 }
 /* End <header> styles */
 
+/* Apply to <section> general all */
 section {
     padding: 60px;
 }
+
+.section-title {
+    font-size: 55px;
+    color: #024e76;
+    margin-bottom: 35px;
+    padding: 0 100px 20px 100px;
+    display: inline-block;
+    border-bottom: 3px solid;
+} 
+
+.primary-border {
+    border-color: #fce138;
+}
+  
+.secondary-border {
+    border-color: #39a6b2;
+}
+
+.text-left {
+    text-align: left;
+}
+  
+.text-right {
+    text-align: right;
+}
+/* End general all <section> styles */
 
 /* Hero Style Start */
 .hero {
@@ -100,6 +127,7 @@ section {
 }
 /* Hero Style End */
 
+/
 .intro {
     text-align: center;
 }
@@ -141,22 +169,6 @@ section {
     font-size: 38px;
 }
 
-.section-title {
-    font-size: 55px;
-    color: #024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
-    display: inline-block;
-    border-bottom: 3px solid;
-}
-  
-.primary-border {
-    border-color: #fce138;
-}
-  
-.secondary-border {
-    border-color: #39a6b2;
-}
 
 /* apply styles to trainers section */  
 .trainers {
@@ -197,14 +209,7 @@ section {
     font-size: 17px;
     line-height: 1.3;
 }
-
-.text-left {
-    text-align: left;
-}
-  
-.text-right {
-    text-align: right;
-}
+/* End trainer styles */
 
 /* Reach Out Styles Start */
 .contact {
@@ -245,7 +250,6 @@ section {
 .contact-info a {
     color: #fce138;
 }
-  
 /* Reach Out Styles End */
 
 /* apply styles to <footer> */
@@ -271,3 +275,4 @@ footer div {
 footer a {
     color: #024e76;
 }
+/* End <footer> styles */
