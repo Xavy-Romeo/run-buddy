@@ -127,7 +127,7 @@ section {
 }
 /* Hero Style End */
 
-/
+/* apply styles to What We Do section */
 .intro {
     text-align: center;
 }
@@ -139,7 +139,9 @@ section {
     font-size: 20px;
     margin: 0 auto;
 }
+/* End styles What We Do section */
 
+/* Apply styles to What You Do section */
 .steps { 
     text-align: center;
     background: #fce138;
@@ -168,7 +170,7 @@ section {
 .steps span {
     font-size: 38px;
 }
-
+/* End What You Do section styles */
 
 /* apply styles to trainers section */  
 .trainers {
@@ -211,7 +213,7 @@ section {
 }
 /* End trainer styles */
 
-/* Reach Out Styles Start */
+/* Apply styles to Reach Out section*/
 .contact {
     text-align: center;
     background: #024e76;
@@ -250,9 +252,9 @@ section {
 .contact-info a {
     color: #fce138;
 }
-/* Reach Out Styles End */
+/* End Reach Out section styles*/
 
-/* apply styles to <footer> */
+/* Apply styles to <footer> */
 footer {
     background: #fce138;
     width: 100%;
